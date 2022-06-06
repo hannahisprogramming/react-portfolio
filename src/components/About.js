@@ -1,7 +1,7 @@
 import React from 'react';
 //hero image
 import heroImage from '../assets/codeblock.jfif';
-
+//<img src={heroImage} className='my-2' style={{width: "100%"}} alt="hero" />
 function About() {
   return (
     <section className="about">
@@ -18,7 +18,6 @@ function About() {
         My future goals for my career are to learn python and help in the development 
         of automated robots!
       </p>
-      <img src={heroImage} className='my-2' style={{width: "100%"}} alt="hero" />
     </section>
   );
 }

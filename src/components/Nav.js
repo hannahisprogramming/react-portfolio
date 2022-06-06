@@ -7,7 +7,10 @@ function Nav({ currentPage, handlePageChange}) {
         <a  className='navbar-brand' href='#about' onClick={() => handlePageChange('About')}>
           Hannah's Portfolio
         </a>
-        <div id="navbar" className='collapse navbar-collapse'>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNav" className='collapse navbar-collapse'>
           <ul className='navbar-nav ms-auto'>
             <li className='nav-item'>
               <a href='#about' onClick={() => handlePageChange('About')}
@@ -17,7 +20,7 @@ function Nav({ currentPage, handlePageChange}) {
               </a>
             </li>
             <li className='nav-item'>
-              <a href='#projects' onClick={() => handlePageChange('Projects')}
+              <a href='#Projects' onClick={() => handlePageChange('Projects')}
               className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
               >
                 My Projects
