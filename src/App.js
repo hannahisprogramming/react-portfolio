@@ -1,5 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 import Nav from './components/Nav';
 import About from './components/About';
 import Projects from './components/Projects';

@@ -11,28 +11,28 @@ function Nav({ currentPage, handlePageChange}) {
           <ul className='navbar-nav ms-auto'>
             <li className='nav-item'>
               <a href='#about' onClick={() => handlePageChange('About')}
-              className={currentPage === 'About'}
+              className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
               >
                 About Me
               </a>
             </li>
             <li className='nav-item'>
               <a href='#projects' onClick={() => handlePageChange('Projects')}
-              className={currentPage === 'Projects'}
+              className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
               >
                 My Projects
               </a>
             </li>
             <li className='nav-item'>
               <a href='#resume' onClick={() => handlePageChange('Resume')}
-              className={currentPage === 'Resume'}
+              className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
               >
                 My Resume
               </a>
             </li>
             <li className='nav-item'>
               <a href='#contact' onClick={() => handlePageChange('Contact')}
-              className={currentPage === 'Contact'}
+              className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
               >
                 Contact Me
               </a>
