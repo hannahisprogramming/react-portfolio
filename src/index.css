@@ -150,7 +150,7 @@ transform: scale(1.1);
 /* End of Resume section */
 
 /* Start of the Contact Section */
-.info {
+.contact {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -160,25 +160,25 @@ transform: scale(1.1);
   flex: 2 70%;
 }
 
-.info div {
+.contact div {
   display: flex;
   flex-direction: column;
 }
-.info-img img {
+.contact-img img {
   height: 80px;
   width: 80px;
   box-shadow: 10px 5px 5px black;
 }
 
-.info h3 {
+.contact h3 {
  font-size: 18px;
  text-align: center;
  flex: 12;
 }
 
-.info-img img:hover,
-.info-img img:focus
-.info-img img:active {
+.contact-img img:hover,
+.contact-img img:focus
+.contact-img img:active {
 box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 -webkit-transform: scale(1.1);
 transform: scale(1.1);

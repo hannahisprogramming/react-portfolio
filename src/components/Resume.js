@@ -6,6 +6,7 @@ function Resume () {
       <div>
         <h2 id="resume" className='title'>Resume</h2>
         <iframe
+          title='My Resume'
           src="../assets/hannah-bush-resume.pdf" alt="Resume"
           style={{
             border: 0

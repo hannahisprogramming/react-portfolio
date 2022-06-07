@@ -3,7 +3,7 @@ import React from "react";
 function Projects() {
   return (
     <section className='project'>
-      <h2 id="projects">Projects</h2>
+      <h2 id="Projects">Projects</h2>
       <div className='project'>
         <h3>Weather Dashboard</h3>
         <div className="project-img">

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Nav({ currentPage, handlePageChange}) {
+function Nav({currentPage, handlePageChange}) {
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-light'>
       <div className='container-fluid'>
@@ -20,7 +20,7 @@ function Nav({ currentPage, handlePageChange}) {
               </a>
             </li>
             <li className='nav-item'>
-              <a href='#Projects' onClick={() => handlePageChange('Projects')}
+              <a href='#projects' onClick={() => handlePageChange('Projects')}
               className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
               >
                 My Projects

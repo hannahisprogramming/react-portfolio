@@ -1,6 +1,5 @@
-import './App.css';
 import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
+import './App.css';
 import Nav from './components/Nav';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -9,6 +8,7 @@ import Contact from './components/Contact';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About');
+  const handlePagechange = (page) => setCurrentPage(page);
 
   const renderPage = () => {
     if(currentPage === 'About') {
@@ -24,10 +24,9 @@ function App() {
     return <Contact />
   }
 
-  const handlePagechange = (page) => setCurrentPage(page);
   return (
     <div>
-      <Nav currentPage={currentPage} handlePagechange={handlePagechange} />
+      <Nav currentPage={currentPage} handlePagechange={handlePagechange}></Nav>
       {renderPage()}
     </div>
   );
