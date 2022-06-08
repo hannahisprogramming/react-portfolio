@@ -1,12 +1,9 @@
 import React from 'react';
-//hero image
-import heroImage from '../assets/codeblock.jfif';
-//<img src={heroImage} className='my-2' style={{width: "100%"}} alt="hero" />
 function About() {
   return (
-    <section className="about">
+    <section className="about hero">
       <h2 className='title'>About Me</h2>
-      <p className='text-dark'>
+      <p>
         Welcome to my portfolio, my name is Hannah Bush. I've recently begun my
         journey into being a software developer, starting by earning a Responsive
         Web Design certificate from FreeCodeCamp in July of 2021, to now successfully 

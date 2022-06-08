@@ -3,13 +3,13 @@ import React from "react";
 function Projects() {
   return (
     <section className='project'>
-      <h2 id="Projects">Projects</h2>
+      <h2 id="Projects" className="title">Projects</h2>
       <div className='project'>
         <h3>Weather Dashboard</h3>
         <div className="project-img">
           <p>
             <a href="https://hannahisprogramming.github.io/weather-dashboard/" target="_blank">
-              <img src='assets/weather-dashboard.jpg' alt="Weather Dashboard" style={{ display: "flex" }} width="500" height="400"/>
+              <img src='/assets/weather-dashboard.jpg' alt="Weather Dashboard" style={{ display: "flex" }} width="500" height="400"/>
             </a>
           </p>
         </div>
