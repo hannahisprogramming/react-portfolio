@@ -11,7 +11,7 @@ function About() {
         Stack Web Development. I've completed over 30 projects, starting with small, 
         strictly CSS and HTML webpages to a full MERN stack application. I can't wait 
         to build some fun personal projects in the future-- plus my friends have 
-        already started making requests! 
+        already begun making requests! 
         My future goals for my career are to learn python and help in the development 
         of automated robots!
       </p>

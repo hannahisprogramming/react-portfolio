@@ -58,10 +58,10 @@ header ul li {
 
 /* Hero Section */
 .hero {
-  height: 900px;
+  height: 80vh;
   width: auto;
   margin-bottom: 25px;
-  background-image: url("./assets/codeblock.jfif");
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, .1) 0%, rgba(255, 255, 255, 0) 100%), url("./assets/codeblock.jfif");
   background-size: cover;
   background-position: center;
 }
@@ -83,7 +83,7 @@ header ul li {
   line-height: 1;
   color: white;
   width: 80%;
-  font-size: 2vw;
+  font-size: 2.4vw;
   margin: 0 auto;
   text-align: center;
   padding: 60px;
