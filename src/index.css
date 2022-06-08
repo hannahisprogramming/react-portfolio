@@ -142,9 +142,13 @@ transform: scale(1.1);
 /* End of the Website Section */
 
 /* Start of the Resume Section */
+.pdf article {
+  justify-content: center;
+}
+
 .pdf iframe {
   height: 1000px;
-  width: 70%;
+  width: 100%;
   align-items: center;
 }
 

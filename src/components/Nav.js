@@ -14,7 +14,7 @@ function Nav() {
         <div id="navbarNav" className='collapse navbar-collapse'>
           <ul className='navbar-nav ms-auto'>
             <li className='nav-item'>
-              <Link to="/about">
+              <Link to="/">
                 About Me
               </Link>
             </li>
